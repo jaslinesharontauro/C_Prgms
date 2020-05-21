@@ -1,12 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
  int a[10],b[10],x[10];
  int waiting[10],turnaround[10],completion[10];
  int i,j,smallest,count=0,time,n;
  double avg=0,tt=0,end;
- clrscr();
  printf("\nEnter the number of Processes: ");
  scanf("%d",&n);
  for(i=0;i<n;i++)
