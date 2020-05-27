@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <iostream.h> 
 using namespace std; 
 void findMaximumBefore(int arr[], int n)
 { 
