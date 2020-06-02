@@ -1,4 +1,4 @@
-#include <bits/stdc++.h> 
+#include <iostream.h> 
 int getInvCount(int arr[], int n) 
 { 
     int inv_count = 0; 
@@ -9,8 +9,6 @@ int getInvCount(int arr[], int n)
   
     return inv_count; 
 } 
-  
-/* Driver progra to test above functions */
 int main(int argv, char** args) 
 { 
     int arr[] = { 1, 20, 6, 4, 5 }; 
